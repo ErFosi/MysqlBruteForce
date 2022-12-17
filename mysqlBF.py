@@ -17,7 +17,6 @@ def login(url, username, password,Bport):
 		connection.close()
 		return True;
 	except pymysql.Error as e:
-		print("no connect")
 		return False
 	else:
 		print("done")
