@@ -1,6 +1,6 @@
 # MysqlBruteForce
 
-Este es un script simple, que dado dos archivos, uno con usuarios y otro con contraseñas, intente hacer un ataque por fuerza bruta.
+Este es un script simple, que dado dos archivos, uno con usuarios y otro con contraseñas, intente hacer un ataque por fuerza bruta a una base de datos MySQL.
 
 ## Instrucciones para poder iniciar el codigo
 Instalamos pip
