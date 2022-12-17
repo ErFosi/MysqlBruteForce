@@ -16,6 +16,10 @@ Ejecutamos
 $python3 mysqlBF.py -url <url> -udict <fichero de usuarios> -pdict <fichero de contraseñas>  -port <puerto>
 
 ```
+Es recomendable darle los permisos a los archivos para poder ver el usuario y contraseña en found.txt
+```bash
+$sudo chmod 777 found.txt
+```
 ## Ejemplo para atacar localhost en el puerto 8888
 ```bash
 python3 mysqlBF.py -url localhost -udict users.txt -pdict password.txt  -port 8888
